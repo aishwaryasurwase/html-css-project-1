@@ -1,4 +1,4 @@
-# Internshala
+# Resume
 Resume created using the HTML, CSS
 
 - Created a HTML page with A4 resolution, included all the styles.
