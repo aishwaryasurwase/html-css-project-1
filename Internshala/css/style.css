@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato';
+    /* width: 21cm;
+    height: 29.7cm; */
+    margin: 30mm 45mm 30mm 45mm;
+    height: 842px;
+    width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header,
+.profile {
+    text-align: center;
+    width: 100%;
+    /* line-height: 1em; */
+    padding-bottom: 4vh;
+    border-bottom: double;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 15px;
+    /* border-bottom: double; */
+    text-decoration-line: underline;
+    width: 100%;
+}
+
+.profile p {
+    line-height: normal;
+    text-align: center;
+}
+
+#phoneno {
+    float: left;
+}
+
+#email {
+    float: right;
+}
+
+table tr {
+    width: 100%;
+}
+
+table tr td {
+    width: 8%;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+.eduDate,
+.empDate {
+    float: right;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title:before {
+    content: '\273f';
+    margin-right: 1vw;
+}
+
+.level {
+    padding-right: 1vw;
+}
+
+.eduLocation {
+    float: right;
+}
+
+.education ul li {
+    list-style-type: none;
+}
+
+.skillname {
+    padding-left: 1vw;
+}
+
+.expert {
+    font-weight: bold;
+    font-style: italic
+}
